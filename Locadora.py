@@ -38,9 +38,32 @@ class Locadora:
         return self.__locacoes
 
     def cadastrar_veiculo(self, v):
-        if not isinstance(v, (Carro, Moto, Utilitario)):
-            return ValueError
-        self.__veiculos.append(v)
+        pass
+
+    def cadastrar_cliente(self, c):
+        pass
+
+    def buscar_veiculo(self, placa):
+        pass
+
+    def buscar_cliente(self, cpf):
+        pass
+
+    def alugar(self):
+        pass
+
+    def devolver(self, id, data):
+        pass
+
+    def listar_veiculos_disponiveis(self):
+        pass
+
+    def listar_locacoes_ativas(self):
+        pass
+
+    def faturamento_total(self):
+        pass
+    
 
 
 
